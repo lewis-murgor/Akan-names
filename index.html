@@ -15,6 +15,30 @@
             <p>This is a web app that takes your birthday, calculates day of the week you were born and outputs your Akan name depending on your gender. Akan names are derived from the Ghanian culture where children are named according to the day of the week they were born.</p>
             <p>The web app requires you to input your birthday, choose your gender and submit to find out your Akan name.</p>
         </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="form">
+                    <h3>Form</h3>
+                    <p>Input your birthday below</p>
+                    <form id="akanName">
+                        <label for="date">Date:</label><br>
+                        <input type="text" id="date"><br>
+                        <label for="month">Month:</label><br>
+                        <input type="text" id="month"><br>
+                        <label for="century">Century(first two digits of year):</label><br>
+                        <input type="text" id="century"><br>
+                        <label for="year">Year(last two digits of year):</label><br>
+                        <input type="text" id="year"><br>
+                        <label for="gender">Gender:</label><br>
+                        male
+                        <input type="radio" id="male"><br>
+                        female
+                        <input type="radio" id="female"><br>
+                        <button onclick="getAkanName()">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
