@@ -1,17 +1,13 @@
 function getAkanName(cc, yy, mm, dd) {
     return(((cc/4) -2*cc-1) + ((5*yy/4)) + ((26*(mm+1)/10)) + dd )% 7
-    
-}
-
-$("form#contact").submit(function(event) {
-    event.preventDefault();
-    var cc = $("#century").val();
-    var yy = $("#year").val();
-    var mm = $("#month").val();
-    var dd = $("#date").val();
+    var cc = document.getElementById("century").val();
+    var yy = document.getElementById("year").val();
+    var mm = document.getElementById("month").val();
+    var dd = document.getElementById("date").val();
 
     var gender = document.getElementById("sex").val();
-});
+}
+
 
     if ((getAkanName===0) && (gender===male)) {
         alert("You were born on Sunday therefore your akan name is Kwasi");
