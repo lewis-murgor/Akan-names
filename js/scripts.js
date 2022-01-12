@@ -6,8 +6,6 @@ function getAkanName(cc, yy, mm, dd) {
     var dd = document.getElementById("date").val();
 
     var gender = document.getElementById("sex").val();
-}
-
 
     if ((getAkanName===0) && (gender===male)) {
         alert("You were born on Sunday therefore your akan name is Kwasi");
@@ -38,5 +36,6 @@ function getAkanName(cc, yy, mm, dd) {
     } else {
         alert("You were born on Saturday therefore your akan name is Ama");
     }
+}
 
 
