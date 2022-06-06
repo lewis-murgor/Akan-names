@@ -22,21 +22,19 @@
                     <p>Input your birthday below:</p>
                     <form id="akanName">
                         <label for="date">Date:</label><br>
-                        <input type="text" id="date"><br>
+                        <input type="number" id="date" required><br>
                         <label for="month">Month:</label><br>
-                        <input type="text" id="month"><br>
-                        <label for="century">Century(first two digits of a year):</label><br>
-                        <input type="text" id="century"><br>
-                        <label for="year">Year(last two digits of a year):</label><br>
-                        <input type="text" id="year"><br>
-                    <div id="sex">
+                        <input type="number" id="month" required><br>
+                        <label for="year">Year:</label><br>
+                        <input type="number" id="year" required><br>
+                    
                         <label for="gender">Gender:</label><br>
                         male
-                        <input type="radio" id="male"><br>
+                        <input type="radio" id="male">
                         female
                         <input type="radio" id="female"><br>
-                    </div>
-                        <button>submit</button>
+                        <br>
+                        <button onclick="getAkanName()" type="submit" class="btn btn-primary">submit</button>
                     </form>
                 </div>
             </div>
