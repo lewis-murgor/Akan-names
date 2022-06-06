@@ -6,12 +6,12 @@ This is a website that gives information on akan names which is from the Ghanian
 ## Setup Instructions
 * Go to any browser
 * click on new tab
-* Enter the url https://lewis-murgor.github.io/names/
+* Enter the url https://lewis-murgor.github.io/akan-names/
 * click enter
 ## Known Bugs
 Being a new browser there are no bugs at the moment.
 ## Live Site on Github pages
-The link to the live site of this website on github pages is https://lewis-murgor.github.io/names/
+The link to the live site of this website on github pages is https://lewis-murgor.github.io/akan-names/
 ## Technologies Used
 Technologies used to create this website were html, css and javascript.
 ## Support and contact details
